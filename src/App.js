@@ -11,7 +11,7 @@ const App = () => {
           <div className="card" key={index}>
             <img src={series.img} alt="Card image" className="card__img" />
             <div className="card_info">
-              <span className="card_category">A Netflix original</span>
+              <span className="card_category">A Netflix original series</span>
               <h3 className="card_title">{series.name}</h3>
               <a
                 href="https://example.com"
